@@ -2,6 +2,8 @@ from nltk import regexp_tokenize
 import random
 
 
+# TODO: write tests and doc
+
 # tokenizes the input text
 def get_corpus(filename):
     with open(filename, "r", encoding="utf-8") as f:
