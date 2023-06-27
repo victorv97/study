@@ -1,0 +1,16 @@
+cases\test_1.py: Line 1: S004 Less than two spaces before inline comments
+cases\test_1.py: Line 2: S003 Unnecessary semicolon after a statement
+cases\test_1.py: Line 3: S001 Too long
+cases\test_1.py: Line 3: S003 Unnecessary semicolon after a statement
+cases\test_1.py: Line 6: S001 Too long
+cases\test_1.py: Line 11: S006 More than two blank lines preceding a code line
+cases\test_1.py: Line 13: S003 Unnecessary semicolon after a statement
+cases\test_1.py: Line 13: S004 Less than two spaces before inline comments
+cases\test_1.py: Line 13: S005 TODO found
+cases\test_2.py: Line 1: S007 Too many spaces after 'class'
+cases\test_2.py: Line 4: S008 Class name 'user' should be written in CamelCase
+cases\test_2.py: Line 14: S009 Function name 'Print2' should be written in snake_case
+cases\test_3.py: Line 9: S012 The default argument value is mutable
+cases\test_4.py: Line 2: S010 Argument name 'Beta' should be written in snake_case
+cases\test_5.py: Line 3: S011 Variable 'Beta' should be written in snake_case
+cases\test_5.py: Line 9: S011 Variable 'Variable' should be written in snake_case

@@ -1,0 +1,9 @@
+cases\test_1.py: Line 1: S004 Less than two spaces before inline comments
+cases\test_1.py: Line 2: S003 Unnecessary semicolon after a statement
+cases\test_1.py: Line 3: S001 Too long
+cases\test_1.py: Line 3: S003 Unnecessary semicolon after a statement
+cases\test_1.py: Line 6: S001 Too long
+cases\test_1.py: Line 11: S006 More than two blank lines preceding a code line
+cases\test_1.py: Line 13: S003 Unnecessary semicolon after a statement
+cases\test_1.py: Line 13: S004 Less than two spaces before inline comments
+cases\test_1.py: Line 13: S005 TODO found

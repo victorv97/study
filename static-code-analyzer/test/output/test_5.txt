@@ -1,0 +1,2 @@
+cases\test_5.py: Line 3: S011 Variable 'Beta' should be written in snake_case
+cases\test_5.py: Line 9: S011 Variable 'Variable' should be written in snake_case

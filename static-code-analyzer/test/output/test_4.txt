@@ -1,0 +1,1 @@
+cases\test_4.py: Line 2: S010 Argument name 'Beta' should be written in snake_case

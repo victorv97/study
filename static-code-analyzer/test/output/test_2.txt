@@ -1,0 +1,3 @@
+cases\test_2.py: Line 1: S007 Too many spaces after 'class'
+cases\test_2.py: Line 4: S008 Class name 'user' should be written in CamelCase
+cases\test_2.py: Line 14: S009 Function name 'Print2' should be written in snake_case

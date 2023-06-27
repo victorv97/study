@@ -1,0 +1,1 @@
+cases\test_3.py: Line 9: S012 The default argument value is mutable
