@@ -141,8 +141,6 @@ if (ptr == nullptr){
        else {
        removeCellWidget(sub_to_remove.row, sub_to_remove.col);
        }
-        qDebug()<<"Стало:";
-        showDebug();
     }
 
 
@@ -167,8 +165,7 @@ else {
             else {
             removeCellWidget(sub_to_remove.row, sub_to_remove.col);
             }
-            qDebug()<<"Стало:";
-            showDebug();
+
         }
         }
     }
@@ -229,11 +226,7 @@ void table::handleSubjectTable(QDropEvent *event, int row_to, int column_to)
                      }
                  }
              }
-
      }
-
-     qDebug()<<"Перемещение:";
-     showDebug();
 }
 
 bool table::check_remove_sub(int id, int max_count)
@@ -249,8 +242,8 @@ bool table::check_remove_sub(int id, int max_count)
         qDebug()<<"Need to remove";
         return true;
     }
-qDebug()<<"No need to remove";
-return false;
+    qDebug()<<"No need to remove";
+    return false;
 }
 
 void table::remember_queue(int row, int column, int id)
@@ -260,8 +253,6 @@ void table::remember_queue(int row, int column, int id)
         data.col = column;
         data.id = id;
         queue_data.push_back(data);
-        qDebug()<<"Запомнил:";
-        showDebug();
 }
 
 History table::remove_sub(int ID)

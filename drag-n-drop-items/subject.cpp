@@ -115,7 +115,6 @@ void subject::paintEvent(QPaintEvent *event)
         QPoint center((widgetSize.width()-scaledPixmap.width())/2,
                       (widgetSize.height()-scaledPixmap.height())/2);
         painter.drawPixmap(center, scaledPixmap);
-       // painter.drawText(rect(), Qt::AlignRight | Qt::AlignBottom, m_text);
     }
     QWidget::paintEvent(event);
 }

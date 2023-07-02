@@ -23,6 +23,7 @@ void MainWindow::create()
 {
     my_widget.create();
     setCentralWidget(&my_widget);
+    my_widget.adjustSize();
 }
 
 void MainWindow::saveClick()
