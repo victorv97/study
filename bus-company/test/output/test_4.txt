@@ -1,0 +1,21 @@
+Type and required field validation: 0 errors
+bus_id: 0
+stop_id: 0
+stop_name: 0
+next_stop: 0
+stop_type: 0
+a_time: 0
+Format validation: 0 errors
+stop_name: 0
+stop_type: 0
+a_time: 0
+Arrival time test:
+bus_id line 256: wrong time on station Lombard Street
+bus_id line 512: wrong time on station Elm Street
+bus_id line 1024: wrong time on station Sesame Street
+Start stops: 4 ['Arlington Road', 'Fifth Avenue', 'Karlikowska Avenue', 'Pilotow Street']
+Transfer  stops: 4 ['Elm Street', 'Prospekt Avenue', 'Sesame Street', 'Sunset Boulevard']
+Finish  stops: 3 ['Michigan Avenue', 'Prospekt Avenue', 'Sesame Street']
+On-demand  stops: 5 ['Bourbon Street', 'Khao San Road', 'Santa Monica Boulevard', 'Sesame Street', 'Sunset Boulevard']
+On demand stops test:
+Wrong stop type: ['Sesame Street']

@@ -1,0 +1,19 @@
+Type and required field validation: 0 errors
+bus_id: 0
+stop_id: 0
+stop_name: 0
+next_stop: 0
+stop_type: 0
+a_time: 0
+Format validation: 0 errors
+stop_name: 0
+stop_type: 0
+a_time: 0
+Arrival time test:
+OK
+Start stops: 1 ['Bourbon Street']
+Transfer  stops: 0 []
+Finish  stops: 1 ['Sunset Boulevard']
+On-demand  stops: 0 []
+On demand stops test:
+OK
